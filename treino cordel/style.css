@@ -1,0 +1,32 @@
+@charset "UFT-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 50px;
+
+}
+h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 6em;
+    font-weight: bolder;
+}
+
+main > p {
+    
+    font-family: 'Sriracha', cursive;
+    font-size: 1.8em;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 30px;
+}
+
+p.fundo {
+    
