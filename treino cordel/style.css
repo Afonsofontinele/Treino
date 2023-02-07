@@ -19,19 +19,30 @@ h1 {
     font-weight: bolder;
 }
 
-main > p {
-    
-    font-family: 'Sriracha', cursive;
-    font-size: 1.8em;
+section {
+    font-size: 2em;
     line-height: 2em;
-    padding-top: 10vh;
-    padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    padding: 20px;
 }
 
-p#img01 {
+p.fundo {
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
+    width: 300px;
+    padding: 30px;
+}
+
+section.imagem01{
     background-image: url(imagem/background001.jpg);
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
-    width: 100vh;
+    background-attachment: fixed;
+}
+
+section.imagem02{
+    background-image: url(imagem/background002.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
