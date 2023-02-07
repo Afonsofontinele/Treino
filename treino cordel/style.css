@@ -28,5 +28,10 @@ main > p {
     padding-left: 30px;
 }
 
-p.fundo {
-    
+p#img01 {
+    background-image: url(imagem/background001.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vh;
+}
